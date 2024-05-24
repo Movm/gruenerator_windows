@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grünerator</title>
+  <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    script-src 'self';
+    style-src 'self' 'unsafe-inline';
+    frame-src 'self' https://gruenerator.de https://gruenerator.de/app_antraege https://gruenerator.de/app_social https://gruenerator.de/app_presse;
+    img-src 'self' data:;
+    connect-src 'self';
+    font-src 'self';">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="menu-bar">
+    <div class="menu-logo">
+      <a href="start.html">
+        <img src="icons/GRÜNERATOR_Logo.png" alt="Grünerator Logo">
+      </a>
+    </div>
+    <nav class="menu-items">
+      <a href="start.html" id="home">Home</a>
+      <a href="#" id="antraege">Anträge</a>
+      <a href="#" id="social-media">Social Media</a>
+      <a href="#" id="pressemitteilungen">Pressemitteilungen</a>
+    </nav>
+  </div>
+  <div id="webview-container">
+    <webview id="content-webview"></webview>
+  </div>
+  <script src="menu.js" defer></script>
+</body>
+</html>
