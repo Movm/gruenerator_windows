@@ -15,7 +15,6 @@ Die Grünerator Windows App bietet eine benutzerfreundliche Schnittstelle zum [g
 
 ### Voraussetzungen
 
-- Windows-Betriebssystem
 - Node.js muss installiert sein
 
 ### Installationsschritte
